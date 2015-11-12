@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: azure;color: darkblue;font-size: 16px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 200;
+}
+
+h1{
+    background-color: beige;font-size: 300%;
+}
+
+h2{
+    background-color: darkgray;font-size: 6em;border: 1px dashed darkred;display: inline;
+}
+
+h5 {
+    background-color: coral;font-size: 75%;
+}
+
+p{
+    border: 1px dotted black;font-size: 16px;
+
+}
+
+p:first-letter{
+    font-size: xx-large;color: #FF00FF;
+}
+#wide1{
+    word-spacing: 20px;/* id in about-me.html */
+}
+
+.div0{
+    border: 1px dashed #0099CC;
+    margin: 15px;
+    padding: 10px;
+}/* class in about-me.html */
+
+.div1{
+    border: 1px solid sienna;
+    margin:10px 15px 10px 12px;
+    padding: 5px;
+    width: 350px;
+    height: auto;
+   }
+
+.div2{
+    border: 1px solid red;
+    margin: 15px;
+    padding: 0px;
+    width: 300px;
+    height: auto;
+    overflow: hidden;
+    position: absolute;
+    top:40px;right:5px;
+    z-index:-1
+}
+
+#projects p{
+    font-size: 9px;
+}
+
+footer{
+    border: 1px solid darkgray;
+    margin: 5px;
+    padding: 5px;
+    position: absolute;buttom:10px;left:10px;
+}
+
+a:hover{
+    color: #FF00FF;font-size: 150%;text-decoration: none;
+}
+
+a:link{
+    color: #FF0000;text-decoration: none;
+}
+
+a:visited{
+    color: #00FF00;text-decoration: none;
+}
+
+a:active{
+    color: #0000FF;text-decoration: underline;
+}
+
+li img:hover{
+    width: 60px;height: auto;
+
+}
+
+li p{
+    margin: 2px;
+    padding: 5px;
+}
